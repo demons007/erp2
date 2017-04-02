@@ -4,6 +4,16 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--tag for responsive page creation>
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+
     <title>XYZ Hotel</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.4.2/react.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.4.2/react-dom.js"></script>
@@ -34,7 +44,7 @@
 </script>
 </head>
 <body>
-        <div id="_js_root_animation">
+    <div id="_js_root_animation">
 
     </div>
     <div id="_psudo_head">
@@ -343,6 +353,7 @@ render(){
             }
             render(){
                 return (
+
                     <div id="_root_anim" style={{width:"98%",height:"1000px",position:"absolute",zIndex:"2"}}>
                         <div style={{width:"98%",height:"100%"}}>
                          <div style={{width:"100%",height:"50px",display:"block",marginTop:"15px"}}> 
